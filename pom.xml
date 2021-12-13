@@ -49,7 +49,7 @@
 				      <properties>
 				        <key>value</key>
 				      </properties>
-				      <objectStoreV2>false</objectStoreV2>
+				      <objectStoreV2>true</objectStoreV2>
 				    </cloudHubDeployment>
 				  </configuration>
 				</plugin>

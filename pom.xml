@@ -33,7 +33,7 @@
 				<plugin>
 				  <groupId>org.mule.tools.maven</groupId>
 				  <artifactId>mule-maven-plugin</artifactId>
-				  <version>3.4.2</version>
+				<version>${mule.maven.plugin.version}</version>
 				  <extensions>true</extensions>
 				  <configuration>
 				    <cloudHubDeployment>
@@ -43,9 +43,9 @@
 				      <password>${password}</password>
 				      <applicationName>${cloudhub.application.name}</applicationName>
 				      <environment>${environment}</environment>
-				      <region>${region}</region>
+				     <!--   <region>${region}</region>
 				      <workers>${workers}</workers>
-				      <workerType>${workerType}</workerType>
+				      <workerType>${workerType}</workerType> -->
 				      <properties>
 				        <key>value</key>
 				      </properties>
